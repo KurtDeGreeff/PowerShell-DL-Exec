@@ -7,10 +7,8 @@
   # v0.1  --  July 2015                    #
   #========================================#
 
-# Copyright 2015 LogRhythm Inc.   
-# Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.  You may obtain a copy of the License at;
-# http://www.apache.org/licenses/LICENSE-2.0
-# Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the License for the specific language governing permissions and limitations under the License.
+# Copyright 2016 LogRhythm Inc.   
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
 
 <#
 .NAME
@@ -117,8 +115,8 @@ Exit 0
 # SIG # Begin signature block
 # MIIdxgYJKoZIhvcNAQcCoIIdtzCCHbMCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUv4FofpZ4lfBgAIC6coVOQYmr
-# Ls6gghi2MIID7jCCA1egAwIBAgIQfpPr+3zGTlnqS5p31Ab8OzANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQU/9fp78L5tzMSpUbNY8MdeQg2
+# Z3+gghi2MIID7jCCA1egAwIBAgIQfpPr+3zGTlnqS5p31Ab8OzANBgkqhkiG9w0B
 # AQUFADCBizELMAkGA1UEBhMCWkExFTATBgNVBAgTDFdlc3Rlcm4gQ2FwZTEUMBIG
 # A1UEBxMLRHVyYmFudmlsbGUxDzANBgNVBAoTBlRoYXd0ZTEdMBsGA1UECxMUVGhh
 # d3RlIENlcnRpZmljYXRpb24xHzAdBgNVBAMTFlRoYXd0ZSBUaW1lc3RhbXBpbmcg
@@ -256,22 +254,22 @@ Exit 0
 # MDEuMCwGA1UEAxMlVmVyaVNpZ24gQ2xhc3MgMyBDb2RlIFNpZ25pbmcgMjAxMCBD
 # QQIQb86k4QlOrKAuOolBFzl1RTAJBgUrDgMCGgUAoHgwGAYKKwYBBAGCNwIBDDEK
 # MAigAoAAoQKAADAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3
-# AgELMQ4wDAYKKwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUI7YzymPG7e5JBunP
-# mbCuvUKUqMIwDQYJKoZIhvcNAQEBBQAEggEAXyShUNtX41RnsCeSnwa9Dasg6ZpD
-# mYzswhM/01bIkAcwMMnP9lLylbsAVmvWdTvVV63IN/BTlazQeEOy5gZsTx/BUkHQ
-# SOPBAYp/1dhYg5qeG3GeNXA+8axr0fHMnKZbiomJzzaKVBpPeiQyKPkZ4eXsrSXp
-# Juy0jhYLThdspc0Ad3n5t0ZYZD2fEaKbaERj1cDH9nE7EMg3iLTuKvNfr272VZct
-# eBZoppx/TEuf5Ye5GQ75w86tssjeALimQUkdL0Nrqy6qjb6iUY2rcLdCqIngqxfI
-# apCHN3j5VSzw58plXrUUz8gDaLVK9NjNvXJv+f2+bcZ3/xXFmVaLkW26r6GCAgsw
+# AgELMQ4wDAYKKwYBBAGCNwIBFTAjBgkqhkiG9w0BCQQxFgQUQXO8hncQYW3Cgzs7
+# blUhOa8VOVgwDQYJKoZIhvcNAQEBBQAEggEAWUDuBQph9CYpRVdUY8oqZo/wxUx4
+# fKN3ZqL1Sb6DAbyA5QFl83NfYCokKGc53HL0j24EC6qFwA1tW93IkDJgPymJJ89P
+# Z/Sx/ICqm/PHHFAidfUlLaOojV82gdyUHW+zU1KCVqVVNJGStf4258wNFkQ3P9gh
+# WJkkpyW7N7ceMAA4kwnLAIUddTxnOj6jkTGQ5THfjy2aTnYHBP+yAOdoyim5eroJ
+# FlQjjlMtvaeJO1Qi+HE/Dm8FxGa1MOfpCKrOtKTUoc//wtkuGrfYNHDiPfil5EZp
+# PTshNYUg9S+J2b3fBteooHMpNOdc5o1e2BNCoAaGQ9A4vFGbAo9FvnCep6GCAgsw
 # ggIHBgkqhkiG9w0BCQYxggH4MIIB9AIBATByMF4xCzAJBgNVBAYTAlVTMR0wGwYD
 # VQQKExRTeW1hbnRlYyBDb3Jwb3JhdGlvbjEwMC4GA1UEAxMnU3ltYW50ZWMgVGlt
 # ZSBTdGFtcGluZyBTZXJ2aWNlcyBDQSAtIEcyAhAOz/Q4yP6/NW4E2GqYGxpQMAkG
 # BSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJ
-# BTEPFw0xNjA0MTgyMTMzNTBaMCMGCSqGSIb3DQEJBDEWBBTJxPnyTY0sKWb01wfw
-# Vf0uax+fhjANBgkqhkiG9w0BAQEFAASCAQBUFVrgn6ZEXmw1P5D3KUhT4/xV1ihL
-# x5trz/QEFeEki61tVJK99aDHGfiFT/arlY8ZXao3BGMBDDKgC3p/6dK9U1yRixlj
-# dVaUAt9aHoxjfqyibZLqoTw4JnL+HlPDMV8Ykc/8RVA0bc3EgHeVVbm0CfJxS25F
-# uz9/4zbjN80I/6lFFfxGcQRCgbxbLa+v02K+NWgRyJy4alewJ8dMhgfiGZKTozr5
-# RitsfBHCcZJeGFCr1m89AWweyJX7byygNSUlmblxMZHJ93GQ0ZoqFY7xpLEI4gAV
-# W5djntqgbOC9cvZMP2kTPYSiJrGTeBQnHKmdK704KNBs/U3UFrghmBHE
+# BTEPFw0xNzAxMTIxODU3MTZaMCMGCSqGSIb3DQEJBDEWBBQxutQyUYT1xWTnB8Ni
+# jPq53qzw9jANBgkqhkiG9w0BAQEFAASCAQBXM30R6VtcPB85lvGehpDBU1jdXvfA
+# jjrksTu5RWitJFFUxKP2BJekBh63fjzeriW/ThRCMc78sjm8u/dvmF+RyQn2P4UD
+# 7ZQIxak4oXOCv8zNFB0ArCsC5aGs6jIUYf8tTItuJPMaGf3OjItPEwrK/ozbLrl/
+# Yb5stpPZYxrFpQeEL9U9Pb5MjvAfIqmQWySUlBhzGDtkItlTUb15N+ArKsIL6f5G
+# Twoio10MWApRb/iKBr2TLKHx9OcoPpCdx0hskcwh/LfOXCX7wjgcrQUG40VMbL3y
+# z+Ji9GDLpJH3+A2pizg7KA9hs00rl93WNMmIjHNQHg6axy0YZtlT4o+9
 # SIG # End signature block
